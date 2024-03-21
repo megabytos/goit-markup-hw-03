@@ -252,6 +252,7 @@ footer .logo {
   color: var(--primary-light-color);
 }
 .hero-button {
+  border: none;
   border-radius: 4px;
   padding: 16px 32px;
   color: var(--primary-light-color);
@@ -304,6 +305,9 @@ footer .logo {
 .advantages-section ul {
   display: flex;
   gap: 24px;
+}
+.advantages-section li {
+  flex-basis: calc((100% - 3*24px) / 4);
 }
 .advantage-title {
   margin-bottom: 8px;
